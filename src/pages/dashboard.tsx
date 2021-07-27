@@ -81,9 +81,11 @@ export default function Dashboard() {
 
                 <SimpleGrid 
                     flex="1"
+                    flexDirection="row"
                     gap="4"
                     minChildWidth="320px"
-                    align="flex-start"
+                    justifyContent="space-around"
+                    alignItems="baseline"
                 >
                     <Box
                         p={["6", "8"]}
